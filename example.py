@@ -10,5 +10,7 @@ df = spark.createDataFrame(data, ["Name", "Age"])
 # Show DataFrame
 df.show()
 
+df.printSchema()
+
 # Stop Spark session
 spark.stop()
